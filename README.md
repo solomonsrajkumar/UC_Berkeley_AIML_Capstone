@@ -37,7 +37,7 @@ This project investigates usage trends, query types, and user demographics to ev
   
 ![Query Type Distribution](images/query_type_distribution.png)
 
-### PGPT Linear Forecast
+### GPT Linear Forecast
 - Description: A linear regression model forecasting GPT usage over time.
 - Insight: Strong upward linear trend, indicating increasing adoption of generative AI.
 
