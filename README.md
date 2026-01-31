@@ -66,7 +66,7 @@ This project investigates usage trends, query types, and user demographics to ev
   - The Seaborn pairplot visualization helps depict how users are grouped across the three selected dimensions. Color coding by cluster reveals separation in the latent behavioral patterns.
   - This clustering helps identify user archetypes and could guide future personalization strategies or platform optimization.
  
-![Query Type Distribution](images/google_trends.png)
+![Query Type Distribution](images/K-Means_Clustering_Analysis.png)
  
 ### Google Trends (Search Volume)
 - Description: Shows search interest for “ChatGPT,” “Google,” and “Bard” over the last 12 months.
