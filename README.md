@@ -34,13 +34,36 @@ This project investigates usage trends, query types, and user demographics to ev
 ### Query Type Distribution
 - Description: Visualizes how different types of queries (Fact, Creative, Coding, Shopping) evolved over time.
 - Insight: Creative and Coding queries appear to be rising, suggesting GPT’s strength in generative use cases.
+  
 ![Query Type Distribution](images/query_type_distribution.png)
 
 ### PGPT Linear Forecast
 - Description: A linear regression model forecasting GPT usage over time.
 - Insight: Strong upward linear trend, indicating increasing adoption of generative AI.
 
-![Query Type Distribution](images/query_type_distribution.png)
+![Query Type Distribution](images/gpt_linear_forecast.png)
+
+### K-Means Elbow Plot
+- Description: Determines the optimal number of user behavior clusters based on usage patterns and query mix.
+- Insight: Elbow observed around K=3, supporting segmentation into three distinct behavior profiles.
+
+![Query Type Distribution](images/elbow_plot.png)
+
+### Google Trends (Search Volume)
+- Description: Shows search interest for “ChatGPT,” “Google,” and “Bard” over the last 12 months.
+- Insight: ChatGPT’s search interest surged after launch, eclipsing Bard and narrowing the gap with Google.
+
+![Query Type Distribution](images/google_trends.png)
+
+### Summary & Conclusions
+
+- This project blends synthetic and real data to:
+- Visualize the rise of generative AI over traditional search
+- Detect usage shifts in query intent
+- Classify temporal behaviors (weekend vs weekday)
+- Cluster users into behavioral segments
+- Align with real-world signals from Google Trends
+
 ## Repository Structure
 ```
 Capstone_GPT_vs_Search/
@@ -61,7 +84,14 @@ Capstone_GPT_vs_Search/
 └── README.md
 ```
 
-## Key Findings (To Be Expanded in Final Report)
-- Initial trend data shows a significant spike in "ChatGPT" interest after Nov 2022, with continued high volume in 2023–2024.
-- Synthetic data shows younger mobile users favor GPT platforms for creative and factual tasks.
-- Classification model predicts GPT preference with decent accuracy based on age and query type.
+### Results Summary
+
+## Key Findings:
+- GPT usage is on a consistent rise, both synthetically and in real-world search data.
+- Users shift from factual to more creative/coding tasks over time.
+- Weekend usage patterns show distinct characteristics.
+- Three behavioral segments emerged from clustering: Traditional searchers, Balanced users, and GPT-heavy power users.
+
+## Limitations:
+- Synthetic data used for user session metrics
+- Google Trends reflects public interest, not direct usage
