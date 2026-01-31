@@ -5,7 +5,7 @@ As generative AI platforms like ChatGPT rapidly gain adoption, are users beginni
 
 This project investigates usage trends, query types, and user demographics to evaluate whether tools like GPT are replacing Google for specific informational or creative tasks.
 
-[View Final Jupyter Notebook:](https://colab.research.google.com/github/solomonsrajkumar/UC_Berkeley_AIML_Capstone/blob/main/notebooks/GPT_vs_Google.ipynb)
+[View Final Jupyter Notebook:](notebooks/GPT_vs_Google.ipynb)
 
 ## Data Sources
 - Google Trends data on “ChatGPT,” “Google,” and “Bard” over time
