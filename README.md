@@ -90,12 +90,15 @@ Capstone_GPT_vs_Search/
 │
 ├── data/
 │   ├── google_trends_data.csv
-│   └── synthetic_survey_data.csv
+│   └── 10_000-row_GPT_vs_Google_Dataset.csv
 │
 ├── images/
 │   ├── trends_over_time.png
 │   ├── query_type_distribution.png
-│   └── platform_preference_by_age.png
+│   └── gpt_linear_forecast.png
+│   └── elbow_plot.png
+│   └── K-Means_Clustering_Analysis.png
+│   └── google_trends.png
 │
 ├── notebooks/
 │   ├── eda.ipynb
