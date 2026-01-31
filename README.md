@@ -7,8 +7,15 @@ This project investigates usage trends, query types, and user demographics to ev
 
 ## Data Sources
 - Google Trends data on “ChatGPT,” “Google,” and “Bard” over time
-- Synthetic survey data on user preferences and behavior
+- Synthetic data on user preferences and behavior
 
+## Data Set
+- platform: GPT, Google, Bard
+- date, is_weekend
+- queries_per_session
+- Session breakdowns: query_fact, query_creative, query_coding, query_shopping
+- Usage metrics: google_usage, gpt_usage
+  
 ## Techniques Used
 - Exploratory Data Analysis (EDA)
 - Data Visualization (seaborn, matplotlib)
@@ -19,14 +26,21 @@ This project investigates usage trends, query types, and user demographics to ev
 ## Visualizations
 
 ### Google Trends Over Time
+- Description: This line chart compares usage patterns of Google vs. GPT-based platforms over time.
+- Insight: GPT usage shows an increasing trend, while Google usage remains stable or slightly declining.
+  
 ![Google Trends Over Time](images/trends_over_time.png)
 
 ### Query Type Distribution
+- Description: Visualizes how different types of queries (Fact, Creative, Coding, Shopping) evolved over time.
+- Insight: Creative and Coding queries appear to be rising, suggesting GPT’s strength in generative use cases.
 ![Query Type Distribution](images/query_type_distribution.png)
 
-### Platform Preference by Age
-![Platform Preference by Age](images/platform_preference_by_age.png)
+### PGPT Linear Forecast
+- Description: A linear regression model forecasting GPT usage over time.
+- Insight: Strong upward linear trend, indicating increasing adoption of generative AI.
 
+![Query Type Distribution](images/query_type_distribution.png)
 ## Repository Structure
 ```
 Capstone_GPT_vs_Search/
