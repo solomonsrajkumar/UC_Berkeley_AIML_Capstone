@@ -34,7 +34,7 @@ This project investigates usage trends, query types, and user demographics to ev
 ### Query Type Distribution
 - Description: Visualizes how different types of queries (Fact, Creative, Coding, Shopping) evolved over time.
 - Insight: Creative and Coding queries appear to be rising, suggesting GPT’s strength in generative use cases.
-  
+
 ![Query Type Distribution](images/query_type_distribution.png)
 
 ### GPT Linear Forecast
