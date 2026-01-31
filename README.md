@@ -29,7 +29,7 @@ This project investigates usage trends, query types, and user demographics to ev
 - Description: This line chart compares usage patterns of Google vs. GPT-based platforms over time.
 - Insight: GPT usage shows an increasing trend, while Google usage remains stable or slightly declining.
   
-![Google Trends Over Time](images/trends_over_time.png)
+[Google Trends Over Time](images/trends_over_time.png)
 
 ### Query Type Distribution
 - Description: Visualizes how different types of queries (Fact, Creative, Coding, Shopping) evolved over time.
