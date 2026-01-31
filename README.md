@@ -101,8 +101,7 @@ Capstone_GPT_vs_Search/
 │   └── google_trends.png
 │
 ├── notebooks/
-│   ├── eda.ipynb
-│   └── baseline_model.ipynb
+│   ├── GPT_vs_Google.ipynb
 │
 └── README.md
 ```
