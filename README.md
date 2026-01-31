@@ -49,6 +49,22 @@ This project investigates usage trends, query types, and user demographics to ev
 
 ![Query Type Distribution](images/elbow_plot.png)
 
+### K-Means Clustering Analysis
+- Description - To explore natural groupings in user behavior patterns, we applied K-Means clustering using three features:
+-- google_usage
+-- gpt_usage
+-- query_creative
+- These represent usage volume of Google and GPT platforms, and the proportion of creative queries in a session.
+- Insights from Clustering
+- The K=3 decision was guided by the elbow method to identify natural groupings in the dataset.
+-- The clusters reveal distinct behavioral patterns among users:
+--- Cluster 0 tends to represent users with high GPT usage and higher engagement in creative queries.
+--- Cluster 1 shows users with dominant Google usage, but limited GPT adoption.
+--- Cluster 2 might represent a hybrid group with moderate use of both platforms, possibly indicating an evolving transition or dual behavior.
+
+- Visual Output
+- The Seaborn pairplot visualization helps depict how users are grouped across the three selected dimensions. Color coding by cluster reveals separation in the latent behavioral patterns.
+- This clustering helps identify user archetypes and could guide future personalization strategies or platform optimization.
 ### Google Trends (Search Volume)
 - Description: Shows search interest for “ChatGPT,” “Google,” and “Bard” over the last 12 months.
 - Insight: ChatGPT’s search interest surged after launch, eclipsing Bard and narrowing the gap with Google.
